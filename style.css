@@ -1,0 +1,10 @@
+#dados-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.dados{
+    padding: 7px;
+    margin: 10px 50px 30px 50px;
+}

@@ -24,7 +24,8 @@ function texto(valorFinal){
     console.log(variavel_2);
 
     let resultadoTexto = document.getElementById("resultadoTexto");
-    resultadoTexto.innerHTML = `${variavel_1} equivale a ${valorFinal}`;
+    
+    resultadoTexto.innerHTML = `${variavel_1}(s) equivale a ${valorFinal}`;
 }
 
 function calcula(){

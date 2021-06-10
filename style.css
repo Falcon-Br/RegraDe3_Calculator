@@ -1,10 +1,30 @@
 #dados-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
     display: grid;
     grid-template-columns: auto auto;
     padding: 10px;
+    height: 300px;
+    width: 700px;
+    border: 1px solid blue;
 }
 
 .dados{
     padding: 7px;
     margin: 10px 50px 30px 50px;
+    text-align: center;
+    
+}
+
+#resultadoTexto{
+    text-align: center;
+}
+
+#resultado{
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgba(75, 68, 68, 0.315);
+    font-size: 20px;
 }
